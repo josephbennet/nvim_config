@@ -1,0 +1,20 @@
+{
+    "workspace.library": [
+        "/Users/joey/.config/nvim",
+        "/Users/joey/.local/share/nvim/site",
+        "/Users/joey/.local/share/nvim/site/pack/packer/start/lualine.nvim",
+        "/Users/joey/.local/share/nvim/site/pack/packer/start/mason-lspconfig.nvim",
+        "/Users/joey/.local/share/nvim/site/pack/packer/start/mason.nvim",
+        "/Users/joey/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
+        "/Users/joey/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
+        "/Users/joey/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
+        "/Users/joey/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
+        "/Users/joey/.local/share/nvim/site/pack/packer/start/packer.nvim",
+        "/Users/joey/.local/share/nvim/site/pack/packer/start/plenary.nvim",
+        "/Users/joey/.local/share/nvim/site/pack/packer/start/telescope.nvim",
+        "/Users/joey/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
+        "/usr/local/Cellar/neovim/0.9.1/share/nvim/runtime",
+        "/usr/local/Cellar/neovim/0.9.1/lib/nvim",
+        "${3rd}/luassert/library"
+    ]
+}
