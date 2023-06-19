@@ -1,7 +1,9 @@
+-- Pcker plugin management
+require('plugins')
+
 -- Nvim Theme
+require('plugins.tokyonight')
 vim.cmd[[colorscheme tokyonight]]
-
-
 
 -- Nvim basic settings
 require('settings')
@@ -9,15 +11,12 @@ require('keymaps')
 
 
 
--- Pcker plugin management
-require('plugins')
-
-
 
 -- All base plugin configuration
 --
 -- Icon library configuration
 require('plugins.devicons')
+require('plugins.treesitter')
 -- Bottom status bar configuration
 require('plugins.lualine')
 -- file tree configuration
@@ -40,3 +39,5 @@ require('lsp.lua')
 require('lsp.rust')
 -- clang lsp
 require('lsp.clang')
+-- elixir lsp
+require('lsp.elixir')

@@ -9,3 +9,6 @@ vim.keymap.set('n', '<leader>fh', builtin.help_tags, {})
 -- floaterm
 vim.api.nvim_set_keymap('n', '<leader>ft', ':FloatermNew<CR>', {noremap = true, silent = true})
 vim.api.nvim_set_keymap('t', '<Esc>', '<C-\\><C-n>:q<CR>', {noremap = true, silent = true})
+-- nvim and macos
+vim.o.clipboard = "unnamedplus"
+
